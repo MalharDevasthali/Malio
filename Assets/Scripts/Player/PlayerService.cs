@@ -18,7 +18,6 @@ namespace Assets.Scripts.Player
         {
             PlayerModel playerModel = new PlayerModel(playerScriptableObject);
             playerController = new PlayerController(playerModel, playerView);
-
         }
 
     }
